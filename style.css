@@ -303,7 +303,7 @@ h1, h2, h3, h4, .logo-text {
 
 .search-bar input {
     width: 100%;
-    padding: 0.8rem 1rem 0.8rem 3rem;
+    padding: 0.8rem 1.5rem;
     border: 1px solid rgba(0,0,0,0.1);
     border-radius: 50px;
     outline: none;
