@@ -53,7 +53,11 @@ const finalArtists = [
     { name: "Silvia Russo", materials: ["Yellow Marble"], style: "Monumental", image: "assets/images/yellow-marble-1.jpg" },
     { name: "David Chen", materials: ["Yellow Marble"], style: "Contemporary", image: "assets/images/yellow-marble-2.jpg" },
     { name: "Silvia Russo", materials: ["Yellow Marble"], style: "Organic", image: "assets/images/yellow-marble-3.jpg" },
-    { name: "David Chen", materials: ["Yellow Marble"], style: "Abstract", image: "assets/images/yellow-marble-4.jpg" }
+    { name: "David Chen", materials: ["Yellow Marble"], style: "Abstract", image: "assets/images/yellow-marble-4.jpg" },
+    { name: "Eleanor Vance", materials: ["Clay"], style: "Portraiture", image: "assets/images/new-clay-bust.jpeg" },
+    { name: "Robert Klein", materials: ["Clay"], style: "Contemporary", image: "assets/images/new-clay-figure.jpeg" },
+    { name: "Julian Thorne", materials: ["Stone"], style: "Figurative", image: "assets/images/new-plaster-hands.jpeg" },
+    { name: "Amanda Marshall", materials: ["Bronze", "Patina"], style: "Abstract", image: "assets/images/new-bronze-hands.jpeg" }
 ];
 
 // Sorting the data for the UI
