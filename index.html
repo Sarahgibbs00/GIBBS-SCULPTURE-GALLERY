@@ -1,20 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home | Gibbs Sculpture Gallery</title>
-    <meta name="description" content="Discover the perfect contemporary sculpture for your collection. Browse by material, style, and size.">
-    
+    <meta name="description"
+        content="Discover the perfect contemporary sculpture for your collection. Browse by material, style, and size.">
+
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Montserrat:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
     <!-- Icons -->
     <script src="https://unpkg.com/lucide@0.400.0/dist/umd/lucide.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    
+
     <link rel="stylesheet" href="style.css?v=1.2.0">
     <style>
         .discovery-grid {
@@ -23,7 +27,7 @@
             gap: 2rem;
             padding: 80px 0;
         }
-        
+
         .category-card {
             position: relative;
             height: 400px;
@@ -33,18 +37,18 @@
             cursor: pointer;
             transition: all 0.5s var(--transition);
         }
-        
+
         .category-card img {
             width: 100%;
             height: 100%;
             object-fit: cover;
             transition: transform 0.6s var(--transition);
         }
-        
+
         .category-overlay {
             position: absolute;
             inset: 0;
-            background: rgba(0,0,0,0.4);
+            background: rgba(0, 0, 0, 0.4);
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -54,27 +58,27 @@
             text-align: center;
             transition: background 0.3s;
         }
-        
+
         .category-card:hover {
             transform: scale(1.02);
-            box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
         }
-        
+
         .category-card:hover img {
             transform: scale(1.1);
         }
-        
+
         .category-card:hover .category-overlay {
-            background: rgba(0,0,0,0.2);
+            background: rgba(0, 0, 0, 0.2);
         }
-        
+
         .category-title {
             font-size: 1.8rem;
             letter-spacing: 3px;
             margin-bottom: 0.5rem;
             text-transform: uppercase;
         }
-        
+
         .category-count {
             font-size: 0.9rem;
             opacity: 0.8;
@@ -91,13 +95,13 @@
             display: flex;
             align-items: center;
             padding: 0.5rem 1.5rem;
-            box-shadow: 0 10px 40px rgba(0,0,0,0.15);
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
             transition: all 0.3s var(--transition);
         }
 
         .search-bar-unified:focus-within {
             transform: translateY(-2px);
-            box-shadow: 0 15px 50px rgba(0,0,0,0.25);
+            box-shadow: 0 15px 50px rgba(0, 0, 0, 0.25);
         }
 
         .search-bar-unified i {
@@ -117,6 +121,7 @@
         }
     </style>
 </head>
+
 <body>
 
     <!-- Header -->
@@ -124,7 +129,8 @@
         <div class="container nav-content">
             <div class="logo">
                 <a href="index.html" style="text-decoration: none; display: flex; align-items: center;">
-                    <img src="assets/images/logo.png" alt="Gibbs Sculpture Gallery Logo" style="height: 45px; width: auto;">
+                    <img src="assets/images/logo.png" alt="Gibbs Sculpture Gallery Logo"
+                        style="height: 45px; width: auto;">
                 </a>
             </div>
             <nav class="desktop-nav">
@@ -148,7 +154,7 @@
             <div class="container hero-content">
                 <h1 class="fade-in">Home</h1>
                 <p class="subtitle fade-in">Browse Our Curated Collections by Style, Medium, and Scale</p>
-                
+
                 <div class="search-bar-unified fade-in">
                     <i data-lucide="search"></i>
                     <input type="text" placeholder="Search for themes, materials, or sizes...">
@@ -158,7 +164,8 @@
 
         <section class="container">
             <div class="discovery-grid">
-                <a href="artists.html?filter=Abstract" class="category-card fade-in" style="--delay: 0.1s; text-decoration: none;">
+                <a href="artists.html?filter=Abstract" class="category-card fade-in"
+                    style="--delay: 0.1s; text-decoration: none;">
                     <img src="assets/images/stone-1.jpg" alt="Abstract Styles">
                     <div class="category-overlay">
                         <h3 class="category-title">Abstract</h3>
@@ -166,7 +173,8 @@
                     </div>
                 </a>
 
-                <a href="artists.html?filter=Figurative" class="category-card fade-in" style="--delay: 0.2s; text-decoration: none;">
+                <a href="artists.html?filter=Figurative" class="category-card fade-in"
+                    style="--delay: 0.2s; text-decoration: none;">
                     <img src="assets/images/stone-2.jpg" alt="Figurative Styles">
                     <div class="category-overlay">
                         <h3 class="category-title">Figurative</h3>
@@ -174,7 +182,8 @@
                     </div>
                 </a>
 
-                <a href="artists.html?filter=Kinetic" class="category-card fade-in" style="--delay: 0.3s; text-decoration: none;">
+                <a href="artists.html?filter=Kinetic" class="category-card fade-in"
+                    style="--delay: 0.3s; text-decoration: none;">
                     <img src="assets/images/stone-3.jpg" alt="Kinetic Styles">
                     <div class="category-overlay">
                         <h3 class="category-title">Kinetic</h3>
@@ -182,7 +191,8 @@
                     </div>
                 </a>
 
-                <a href="artists.html?filter=Bronze" class="category-card fade-in" style="--delay: 0.4s; text-decoration: none;">
+                <a href="artists.html?filter=Bronze" class="category-card fade-in"
+                    style="--delay: 0.4s; text-decoration: none;">
                     <img src="assets/images/clay-1.jpg" alt="Outdoor Sculptures">
                     <div class="category-overlay">
                         <h3 class="category-title">Outdoor</h3>
@@ -190,7 +200,8 @@
                     </div>
                 </a>
 
-                <a href="artists.html?filter=Steel" class="category-card fade-in" style="--delay: 0.5s; text-decoration: none;">
+                <a href="artists.html?filter=Steel" class="category-card fade-in"
+                    style="--delay: 0.5s; text-decoration: none;">
                     <img src="assets/images/clay-2.jpg" alt="Wall Sculptures">
                     <div class="category-overlay">
                         <h3 class="category-title">Wall Mount</h3>
@@ -198,7 +209,8 @@
                     </div>
                 </a>
 
-                <a href="artists.html?filter=Abstract" class="category-card fade-in" style="--delay: 0.6s; text-decoration: none;">
+                <a href="artists.html?filter=Abstract" class="category-card fade-in"
+                    style="--delay: 0.6s; text-decoration: none;">
                     <img src="assets/images/clay-3.jpg" alt="Small Scale Sculptures">
                     <div class="category-overlay">
                         <h3 class="category-title">Small Scale</h3>
@@ -214,14 +226,15 @@
         <div class="container footer-content">
             <div class="footer-info">
                 <div class="logo">
-                    <img src="assets/images/logo.png" alt="Gibbs Sculpture Gallery Logo" style="height: 50px; width: auto; margin-bottom: 1rem;">
+                    <img src="assets/images/logo.png" alt="Gibbs Sculpture Gallery Logo"
+                        style="height: 50px; width: auto; margin-bottom: 1rem;">
                 </div>
-                <p>Curating exceptional sculpture for 35 years.</p>
+                <p>Curating exceptional sculpture for 25 years.</p>
             </div>
             <div class="footer-links"></div>
         </div>
         <div class="footer-bottom">
-            <p>All contents copyright Gibbs Sculpture Gallery 2018 to 2026. All rights reserved.</p>
+            <p>All contents copyright Gibbs Sculpture Gallery 2025 to 2026. All rights reserved.</p>
         </div>
     </footer>
 
@@ -234,4 +247,5 @@
         });
     </script>
 </body>
+
 </html>
